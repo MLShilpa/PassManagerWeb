@@ -1,0 +1,22 @@
+.Body{
+    display: flex;
+}
+.SideBar{
+    width: 120px;
+    background-color: #2892FF;
+    max-height: 100vh;
+    min-height: 600px;
+}
+.MainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 600px;
+    /* background-attachment: scroll; */
+}
+.container{
+    height: calc(100vh-5px);
+    position: relative;
+    overflow: scroll;
+    border-style: dashed;
+}

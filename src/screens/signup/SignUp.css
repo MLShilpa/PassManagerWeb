@@ -1,0 +1,126 @@
+.SignUpContainer{
+  width: 100%;
+}
+.SignUpText{
+  display:block;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.67px;
+  line-height: 27px;
+  margin-bottom: 27px;
+  margin-top: -1px;
+  margin-left: 21%;
+}
+.boxAlignment{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+.InputBox{
+  padding-left: 10px;
+  box-sizing: border-box;
+  height: 54px;
+  width: 65%;
+  border: 0.55px solid rgba(208,208,208,0.5);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  display: block;
+  color: #787E8C;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.MpinInputBox{
+  padding-left: 10px;
+  margin-top: 1px;
+  height: 49px;
+  width: 85%;
+  color: #787E8C;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  border: none;
+  border-radius: 4px;
+
+}
+.ReEnterMpinBox{
+  box-sizing: border-box;
+  height: 54px;
+  width: 65%;
+  border: 0.55px solid rgba(208,208,208,0.5);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+
+}
+.SUiconButton{
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.SUeyeOn{
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+}
+.SUeyeoff{
+  height: 24px;
+  width: 30px;
+  background-color: transparent;
+}
+.SUSigninButton{
+height: 44px;
+width: 130px;
+border: none;
+border-radius: 4px;
+background-color: #FFFFFF;
+color: #0E85FF;
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 1.2px;
+line-height: 24px;
+margin-left: 18%;
+margin-top: 8% ;
+}
+@media screen and (max-width: 768px){
+  .SignUpContainer{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .SignUpText{
+    display:none;
+  }
+  .InputBox{
+    width: 85%;
+  }
+  .MpinInputBox{
+    width: 91%;
+  }
+  .ReEnterMpinBox{
+    box-sizing: border-box;
+    height: 54px;
+    width: 85%;
+    border: 0.55px solid rgba(208,208,208,0.5);
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+  }
+  .SUSigninButton{
+    margin-left: 8%;
+    margin-top: 50px ;
+    }
+}
