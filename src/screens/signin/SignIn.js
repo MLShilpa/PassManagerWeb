@@ -27,6 +27,8 @@ function SignIn() {
           <input
             className="MobileNumBox"
             title="Mobile Number"
+            type={'tel'}
+            // maxLength={10}
             placeholder="Mobile Number"
             onChange={(event) => {
               setMobileNum(event.target.value);
@@ -40,6 +42,9 @@ function SignIn() {
               className="Text"
               placeholder="Mpin"
               title="Mpin"
+              
+              maxLength={4}
+              inputMode={'numeric'}
               value={passwordInput}
               type={passwordType}
               onChange={(event) => {

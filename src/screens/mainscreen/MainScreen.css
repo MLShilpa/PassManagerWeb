@@ -1,22 +1,186 @@
-.Body{
-    display: flex;
+*{font-family: 'Open Sans', sans-serif;}
+.MSBody {
+  display: flex;
+  min-width: 500px;
 }
-.SideBar{
-    width: 120px;
-    background-color: #2892FF;
-    max-height: 100vh;
-    min-height: 600px;
+.MSSideBar {
+  width: 120px;
+  min-width: 110px;
+  background-color: #2892ff;
+  max-height: 100vh;
+  min-height: 600px;
 }
-.MainContainer{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    min-height: 600px;
-    /* background-attachment: scroll; */
+.MSMainContainer {
+    min-width: 370px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 600px;
+  width: calc(100vw - 120px);
+  background-color: #FAFAFA;
+  /* background-attachment: scroll; */
 }
-.container{
-    height: calc(100vh-5px);
-    position: relative;
-    overflow: scroll;
-    border-style: dashed;
+.MSHeader {
+  background-color: #f5f7fb;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 5%;
+}
+.MSlogo {
+  height: 68px;
+  width: 179px;
+  margin-right: 50px;
+}
+.MSHeaderSideIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.MSSyncIcon {
+  height: 35px;
+  width: 60px;
+  border-style: dashed;
+  margin-right: 7%;
+}
+.MSPrifileIcon {
+  height: 35px;
+  width: 60px;
+  border-style: double;
+}
+
+.MSSubHeader {
+  /* min-width: 355px; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 5% 0px 5%;
+  /* margin : 30px 5% 0px 5%; */
+  background-color: #FAFAFA;
+  /* border-style: dashed; */
+}
+.MSSites {
+  color: #3c4857;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin: 0px;
+}
+.MSSitesBorder {
+  border: 2px solid #ffa136;
+  border-radius: 2px;
+  width: 36px;
+}
+.MSSubHeaderSide {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.MSSearchDiv {
+  padding: 5px 0px;
+  margin-right:5%;
+  border-bottom: 1px solid #0e85ff;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.MSSearch {
+    border: none;
+    border-style: none;
+    height: 24px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    background-color: #FAFAFA ;
+  }
+  .MSSearch:focus{
+    outline: none;
+  }
+.MSSearchIcon {
+  height: 24px;
+  width: 24px;
+}
+.MSAddBtnIcon {
+  height: 48px;
+  width: 48px;
+}
+.MSSocialMedia{
+  display: flex;
+  width: 200px;
+  margin-left: 5%;
+  margin-top: 30px;
+  justify-content: space-between;   
+}
+.MSSocialMediaText{
+  height: 33px;
+  width: 141px;
+  color: #3C4857;
+  font-family: "Open Sans";
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 33px;
+}
+.MSSocialMediaNumDiv{
+  box-sizing: border-box;
+  height: 37px;
+  width: 37px;
+  border: 1px solid #FFFFFF;
+  background-color: #0E85FF;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MSSocialMediaNum{
+  height: 27px;
+  width: 23px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+.MScontainer {
+  height: calc(100vh-5px);
+  background-color: #FAFAFA;
+  margin-top: 40px;
+  position: relative;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1% 2%;
+  padding: 0px 3.5% 0px 5%;
+}
+.MScontainer2 {
+  background-color: #FAFAFA;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0px 3.5% 0px 5%; */
+}
+.MsEmptyDiv{
+  height: 215px;
+  width: 819px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 107.5px;
+  background-color: #F5F7FB;
+}
+.MsEmptyText{
+  color: #3C4857;
+  font-family: "Open Sans";
+  font-size: 26px;
+  letter-spacing: 0;
+  text-align: center;
 }

@@ -1,0 +1,67 @@
+*{font-family: 'Open Sans', sans-serif;}
+.CConatiner{
+    height: 115px;
+    width: 363px;
+    border-radius: 14px 14px 14px 14px;
+    box-shadow: 0 8px 18px 10px rgba(0,0,0,0.02);
+    margin-bottom: 20px;
+}
+.CTopDiv{
+    /* height: 73px; */
+    padding:10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* min-width: 100%; */
+    border-radius: 14px 14px 0 0;
+    background-color: #FFFFFF;
+}
+.CSiteLogo{
+    height: 50px;
+    width: 50px;
+}
+.CtopRight{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end
+}
+.CSiteName{
+    color: #0E85FF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 27px;
+}
+.CtopRightBottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.CCopyImg{
+    height: 19.8px;
+  width: 19.8px;  
+  margin-right:5px ;
+}
+.CCopyText{
+  color: #0E85FF;
+  font-family: "Open Sans";
+  font-size: 12.6px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+.CBottomDiv{
+    border-radius: 0 0 14px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.CSiteLink{
+    color: #3C4857;
+    font-family: "Open Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-decoration: none;
+}

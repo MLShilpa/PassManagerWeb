@@ -1,5 +1,5 @@
 
-import './App.css';
+// import './App.css';
 // import Nav from './navigation/Nav';
 import MainScreen from './screens/mainscreen/MainScreen';
 
